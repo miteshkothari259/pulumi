@@ -1,0 +1,9 @@
+config:
+  azure-native:location: NorwayEast
+  pulumi:template: vm-azure-python
+  vm-azure-python:adminUsername: pulumiuser
+  vm-azure-python:osImage: Debian:debian-11:11:latest
+  vm-azure-python:servicePort: "80"
+  vm-azure-python:sshPublicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC3vAQLPX88Q+AkBlrygdjEvumC0veH/T+zCj+PX+wlhH1CeV6/MQMJQqjOLbQQvIlrHBWFl3pQfKYB45SiNonFnpBM9bI83XsbJuYxeRhomeR6PLpa6bD0z0DewaBB0oVdo/P+92JNUc4OSwdxZ4aV6tHDNzqtHZT8YRxUtV4EcgmL1ve5zCdjOb8kFx43qnIwCe0qg4OPhfhL3+vhR07lVJ2jIeFFJdsZhZbqtCf5HjELU6mL5/9v+C12hij0ZQUO+iqlMFhwsmWUs1lYQPfrGMca/MycTkAOPveruZ+jaa4ugKqzYlQaXcnSUulzBXvufhio9XHNS/HJ8IHS1x/n9vaMRB09AogegVxdjXI12iaC5NshiTs2Me0Jr+jEqp/OLbXI3Q5vHfLwqhT5XsgiPbtSFBtBollF0dIDugsesh+juUrC16w8eW6SJfy6AxMNCiJh3inF52cHXuYuHTvmp1pCtVKQDq0WdBnw6/Q9+15qe+QgOIHQGIZgF1eQGXtWxzwTmp3efv8FFcEJgJH/xicHHecoRgDULzSp3E939j7N5vpizU1Xn+LglYjAe5GgBMgJvTZjodxBYE3BvsAEFL5GSdQDAn8Gp52N+h6UZnVdMHQN7ISF8HYsUkOJI2RZwbWV/NTpyFwOiK31uHrikwD/nF/SJlIOAr+TKOyZkQ==
+  vm-azure-python:vmName: my-server
+  vm-azure-python:vmSize: Standard_A1_v2
